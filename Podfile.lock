@@ -1,37 +1,80 @@
 PODS:
+  - Alamofire (4.9.1)
+  - CHKLineChartKit (2.3.1)
+  - DropDown (2.3.13)
+  - FSPagerView (0.8.3)
   - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.4.3):
+    - MZAppearance
   - Parchment (2.4.0)
   - RAMAnimatedTabBarController (5.2.0)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
   - SnapKit (5.0.1)
+  - Starscream (4.0.4)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.8)
+  - CHKLineChartKit
+  - DropDown
+  - FSPagerView
   - IQKeyboardManagerSwift
+  - Kingfisher (~> 5.0)
+  - MZFormSheetPresentationController
   - Parchment (~> 2.4)
   - RAMAnimatedTabBarController
-  - RxCocoa (~> 4.0)
-  - RxSwift (~> 4.0)
+  - RxCocoa
+  - RxSwift
   - SnapKit
+  - Starscream
+  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - CHKLineChartKit
+    - DropDown
+    - FSPagerView
     - IQKeyboardManagerSwift
+    - Kingfisher
+    - MZAppearance
+    - MZFormSheetPresentationController
     - Parchment
     - RAMAnimatedTabBarController
     - RxCocoa
+    - RxRelay
     - RxSwift
     - SnapKit
+    - Starscream
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CHKLineChartKit: b8c276fc768530f8fae9ae471b0451f33aa95298
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
   Parchment: 002785473861582385db5c6725165353c500198e
   RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 1159800551c387c5a3b60d260a4eada384e7005a
+PODFILE CHECKSUM: 7888fc902f863b151516530502b46f871375a357
 
 COCOAPODS: 1.9.3

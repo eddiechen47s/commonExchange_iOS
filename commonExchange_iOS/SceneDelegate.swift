@@ -16,10 +16,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         self.window = UIWindow(windowScene: windowScene)
+     
         self.window?.rootViewController = CustomTabBarController()
         self.window?.makeKeyAndVisible()
+        confirmLogin()
     }
-
+    
+    private func confirmLogin() {
+        if let token = userDefaults.string(forKey: "UserToken") {
+            print("token:", token)
+            if !token.isEmpty {
+                print("token:", token)
+                userDefaults.set(true, forKey: "isUserLogin")
+            } else {
+                userDefaults.set(false, forKey: "isUserLogin")
+            }
+        } else {
+            userDefaults.set(false, forKey: "isUserLogin")
+        }
+    }
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
