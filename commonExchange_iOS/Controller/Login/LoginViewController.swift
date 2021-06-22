@@ -148,7 +148,6 @@ class LoginViewController: UIViewController {
     @objc private func didTapRegisterutton() {
         print("didTapregisterutton")
         let controller = createNavController(vc: RegisterViewController(), title: "註冊帳號", image: nil, selectedImage: nil, tag: 6)
-//        let nav = UINavigationController(rootViewController: controller)
         controller.modalPresentationStyle = .fullScreen
         self.present(controller, animated: true, completion: nil)
     }
